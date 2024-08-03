@@ -7,3 +7,5 @@
     Router.post('/products',productController.createProduct)
     
     module.exports =  Router;
+    
+                                          

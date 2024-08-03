@@ -30,7 +30,7 @@ app.use('/api/cart', cartRoutes);
 app.use('/api/order', orderRoutes);
 app.use(bodyParser.json());
 app.listen(3000,()=>{
-    console.log("Server is running on port 3000")
+    console.log("Server is running on port 3000")     
 })
 
 
